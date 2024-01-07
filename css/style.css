@@ -1,11 +1,10 @@
 body{
     font-family: sans-serif;
     margin: 20px 80px 0px 80px;
-    font-family: 'Merriweather', serif;
 }
 /* Banner style */
 header{
-    background-image:url("/resources/Banner\ Image.png");
+    /* background-image:url("/resources/Banner\ Image.png"); */
     background-repeat: no-repeat;
     box-sizing: border-box;
     height: 600px;
@@ -89,4 +88,25 @@ a{
     font-size: 20px;
     line-height: 32px;
     width: 400px;
+}
+.fivebody{
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 120px;
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+p{
+    word-wrap: break-word;
+    font-size: 20px;
+}
+
+.sixbody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
 }
