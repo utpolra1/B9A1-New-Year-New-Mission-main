@@ -40,12 +40,14 @@ a{
 }
 .secondbody{
     background-image: url('/resources/Vectorrr.png');
-    color: #FFF;
     height: 600px;
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 10px;
     margin-top: 120px;
+}
+.cildsecondbody{
+    color: #FFF;
 }
 
 .thardbody{
@@ -56,7 +58,6 @@ a{
     font-size: 32px;
     margin-top: 120px;
     margin-bottom: 60px;
-
 }
 .thardbodychild{
     position: absolute;
