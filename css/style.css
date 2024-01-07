@@ -4,7 +4,6 @@ body{
 }
 /* Banner style */
 header{
-    background: linear-gradient(180deg, #0f0f0f 0%, rgba(7, 2, 17, 0) 100%);
     background-image:url("/resources/Banner\ Image.png");
     background-repeat: no-repeat;
     box-sizing: border-box;
