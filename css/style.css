@@ -44,15 +44,27 @@ a{
 .secondbody{
     background-image: url('../img/Vectorrr.png');
     height: 600px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 10px;
     margin-top: 120px;
 }
-.cildsecondbody{
+.childsecound{
     color: #FFF;
-    padding-top: 20px;
-    margin: 126px 512px 214px 126px;
+    /* padding-top: 20px; */
+    margin: 30px 12px 24px 106px;
+    width: 100%;
+    word-wrap: break-word;
+}
+.cildsecondbody{
+    display: flex;
+}
+.img-secound{
+    padding: 5px ;
+    width: 150px;
+    margin: 140px 200px 24px 60px;
+
 }
 
 .thardbody{
@@ -107,10 +119,67 @@ p{
     word-wrap: break-word;
     font-size: 20px;
 }
+.fivebodyh3{
+    font-size: 24px;
 
+}
+.p-fivebody{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    word-wrap: break-word;
+}
 .sixbody{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 120px;
+    height: 600px;
+    width: 1320px;
+    height: 229px;
+    background: #FF0000;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+.perents-sixbody{
+    display: flex;
+    box-sizing: border-box;
+}
+.span{
+    color: #F00;
+}
+.sevenbody{
+    font-size: 20px;
+    padding-top: 120px;
+    word-wrap:break-word;
+}
+.img-rectangle{
+    text-align: center;
+}
+.img-rectangle image:hover{
+    background-color: rgb(226, 42, 42);
+}
+.subscribe{
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    text-align: center;
+    padding: 200px 20px 50px 50px;
+
+}
+.button-sub {
+    width: 220px;
+    height: 30px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+
+.button-sub1{
+    margin-left: -70px;
+    height: 35px;
+    width: 80px;
+    background: red;
+    color: white;
+    border: 0;
+    border-radius: 5px;
 }
