@@ -139,10 +139,7 @@ p{
 }
 .sixbody{
     align-items: center;
-    height: 600px;
-    width: 1320px;
     height: 229px;
-    background: #FF0000;
     position: relative;
     height: 600px;
 }
@@ -236,19 +233,15 @@ footer{
     align-items: center;
 }
 .legal1{
-    color: white;
     font-size: 24px;
-    font-family: Inter;
     font-weight: 500;
     word-wrap: break-word;
     margin-left: 20px;
 
 }
     
-.legal__links {
-    color: white;
+.legal__links{
    font-size: 24px;
-   font-family: Inter;
    font-weight: 500;
    word-wrap: break-word;
    margin-right: 20px;
