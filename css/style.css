@@ -138,7 +138,6 @@ a{
 p{
     word-wrap: break-word;
     font-size: 20px;
-    padding: ;
 }
 .fivebodyh3{
     font-size: 24px;
@@ -202,7 +201,7 @@ p{
     background: red;
     color: white;
     border: 0;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 /* footer desgin */
 footer{
@@ -233,6 +232,7 @@ footer{
     margin-right: 300px;
     text-align: center;
     align-items: center;
+    justify-items: center;
 }
 #child2{
     align-items: center;
