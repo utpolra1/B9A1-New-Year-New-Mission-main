@@ -116,6 +116,7 @@ a{
     line-height: 32px;
     word-wrap: break-word;
     align-items: center;
+    margin-left: 100px;
 }
 .main-2024 h1{
     color: #F00;
@@ -169,6 +170,7 @@ p{
     font-size: 20px;
     padding-top: 120px;
     word-wrap:break-word;
+    padding-left: 110px;
 }
 .img-rectangle{
     text-align: center;
