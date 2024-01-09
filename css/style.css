@@ -69,7 +69,7 @@ a{
 .img-secound{
     padding: 5px ;
     width: 150px;
-    margin: 140px 200px 24px 60px;
+    margin: 140px 200px 24px 300px;
 
 }
 
@@ -98,13 +98,26 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 600px;
+    width: 100%;
+    background-size: 100%;
 }
 
 .imgEllipse{
-    border-radius: 364.844px;
-    border-radius: 463px;
-    border: 15px solid #F00;
+  border-radius: 100%;
+  border: 15px solid #f00;
+  margin: auto;
+  padding: 30px;
+}
+.main-2024{
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
     align-items: center;
+}
+.main-2024 h1{
+    color: #F00;
 }
 .primary-ptag{
     word-wrap: break-word;
@@ -137,16 +150,18 @@ p{
     line-height: 32px;
     word-wrap: break-word;
 }
-.sixbody{
-    align-items: center;
-    height: 229px;
-    position: relative;
+/* .sixbody{
+    height: 100%;
+    box-sizing: border-box;
     height: 600px;
 }
 .perents-sixbody{
     display: flex;
+    width: 100%;
+    height: 100%;
     box-sizing: border-box;
-}
+    max-width: 100%;
+} */
 .span{
     color: #F00;
 }
@@ -158,6 +173,11 @@ p{
 .img-rectangle{
     text-align: center;
 }
+.img-rectangle img{
+    padding-right:10px;
+    padding-bottom: 10px;
+}
+
 .img-rectangle image:hover{
     background-color: rgb(226, 42, 42);
 }
