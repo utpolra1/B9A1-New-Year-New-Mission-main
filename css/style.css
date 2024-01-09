@@ -65,12 +65,13 @@ a{
     margin: 150px 100px 300px 106px;
 }
 .primary-buton2{
-    width: 20%;
-    height: 10%;
-    border-radius: 16px;
     margin-left: 30px;
 }
-
+.primary-buton3{
+    border-radius: 16px;
+    width: 120px;
+    height: 50px;
+}
 .cildsecondbody{
     display: flex;
     justify-content: space-between;
@@ -207,7 +208,7 @@ p{
     width: 220px;
     height: 30px;
     padding-right: 50px;
-    border-radius: 5px;
+    border-radius: 20px 20px 0 20px;
 }
 
 .button-sub1{
@@ -217,7 +218,7 @@ p{
     background: red;
     color: white;
     border: 0;
-    border-radius: 15px;
+    border-radius: 0px 20px 20px 0;
 }
 /* footer desgin */
 footer{
