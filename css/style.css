@@ -182,9 +182,7 @@ p{
     word-wrap:break-word;
     margin-left: 20px;
 }
-.sevenbody h1 h2{
-    margin: auto;
-}
+
 .img-rectangle{
     text-align: center;
 }
@@ -239,11 +237,11 @@ footer{
     font-family: Inter;
     font-weight: 500;
     line-height: 40px;
-    margin-top: 200px;
+    margin-top: 50px;
     margin-left: 140px;
 }
 .footer-child2{
-    margin-top: 200px;
+    margin-top: 50px;
     margin-right: 300px;
     text-align: center;
     align-items: center;
@@ -261,7 +259,7 @@ footer{
 .footer-icon{
     text-align: center;
     vertical-align: top;
-    margin-top: 200px;
+    margin-top: 50px;
     margin-bottom: 150px;
 
 }
